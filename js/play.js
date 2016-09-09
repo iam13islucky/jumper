@@ -1,7 +1,7 @@
 var playState = {
 
-    create: function() { 
-
+    create: function() {
+        this.player =
     },
 
     update: function() {

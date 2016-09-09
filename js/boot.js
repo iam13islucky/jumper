@@ -1,10 +1,10 @@
 var bootState = {
 
-    preload: function () {
+    preload: function() {
         game.load.image('progressBar', 'assets/progressBar.png');
     },
 
-    create: function() { 
+    create: function() {
         // Game settings
         game.stage.backgroundColor = '#3498db';
         game.physics.startSystem(Phaser.Physics.ARCADE);
